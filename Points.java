@@ -56,9 +56,7 @@ public class Points {
         for (int i = 0; i < n; i++){
             String[] strings = reader.readLine().split(" ");
             x = Integer.parseInt(strings[0]);
-            //  System.out.print(x + " ");
             y = Integer.parseInt(strings[1]);
-            //   System.out.println(y);
 
             if (plane.containsKey(x)){
                 plane.get(x).add(y);
